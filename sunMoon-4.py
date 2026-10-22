@@ -1,26 +1,4 @@
-"""
-sunMoon.py  --  a "Sun & Moon" collision made entirely of text characters.
 
-A boiling, spotted sun and a cratered blue-silver moon drift toward each other,
-crash together into one blended blob (orange + blue = hot pink/white where they
-overlap, with sparks flying), then pull apart and do it all over again. Every
-pixel is a character chosen by brightness, over a field of twinkling stars.
-
-  Sun  : churning granulation, sunspots, darker edges, flickering corona rays,
-         and prominence arcs that rise and fall off its rim. It spins left to
-         right with its axis tilted toward us, and sunspots nearer the poles
-         lag behind the equator (differential rotation).
-  Moon : dark seas (maria), craters with lit rims and shadowed walls, a bright
-         rayed crater, lit from whichever side faces the sun. Like the real
-         moon it is tidally locked: the same face always looks at us, with only
-         a gentle wobble (libration) so you can peek slightly around the edges.
-
-Run:   python sunMoon.py
-Keys:  SPACE = pause / resume          ESC = quit
-       LEFT / RIGHT = slower / faster clash
-       UP / DOWN    = faster / slower sun spin
-Needs: Python 3 with tkinter (included with the standard Windows/macOS installer).
-"""
 
 import math
 import random
